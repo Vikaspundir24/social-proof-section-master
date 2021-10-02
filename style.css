@@ -1,0 +1,138 @@
+/* css reset */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Spartan', sans-serif;
+}
+
+.full{
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+}
+#upper{
+    display: flex;
+    flex-direction: row;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+
+#heading1{
+    letter-spacing: 1px;
+    color: hsl(300, 43%, 22%);
+    width: 300px;
+}
+.para{
+    font-weight: 500;
+    margin-top: 10px;
+    font: size 15px; 
+    width: 500px;
+    color: hsl(303, 10%, 53%);
+}
+.containers{
+    justify-content: end;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container1{
+   
+    border-radius: 10px;
+    width: 430px;
+    display: flex;
+    background-color: hsl(300, 24%, 96%);
+}
+.s1{
+    margin-left: 5px;
+}
+.stars{
+    margin-left: 10px;
+    padding: 15px;
+}
+.rated{
+    color: hsl(300, 43%, 22%);
+    padding: 15px;
+}
+
+.container2{
+    margin-left: 40px;
+    margin-top: 15px;
+    border-radius: 10px;
+    width: 430px;
+    display: flex;
+    background-color: hsl(300, 24%, 96%);
+}
+
+.container3{
+    margin-left: 80px;
+    margin-top: 15px;
+    border-radius: 10px;
+    width: 430px;
+    display: flex;
+    background-color: hsl(300, 24%, 96%);
+}
+
+/* lower part */
+
+.lower{
+    margin-top: 50px;
+}
+
+.containers2{
+    display: flex;
+}
+.container4{
+    border-radius: 10px;
+    padding: 30px;
+    width: 300px;
+    height: 150px;
+    background-color: hsl(300, 43%, 22%);
+}
+
+.container5{
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 30px;
+    width: 300px;
+    height: 150px;
+    background-color: hsl(300, 43%, 22%);
+}
+.container6{
+margin-top: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 30px;
+    width: 300px;
+    height: 150px;
+    background-color: hsl(300, 43%, 22%);
+}
+.dp{
+    width: 40px;
+    border-radius: 50%;
+}
+.NI{
+    display: flex;
+}
+.N{
+    margin-top: 5px;
+    margin-left: 20px;
+}
+.name{
+    color: white;
+}
+.buyer{
+    margin-top: 5px;
+    font-size: 12px;
+    color: rgb(238, 104, 164 ,.8);
+}
+
+.para2{
+    margin-top: 20px;
+    font-size: 14px;
+    color: white;
+    font-weight: 400;
+}
