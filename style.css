@@ -158,7 +158,7 @@ margin-top: 40px;
         padding: 50px 0px;
     }
     #heading1{
-        margin-left: 100px;
+        margin-left: 75px;
         margin-bottom: 10px;
         
     }
@@ -169,6 +169,7 @@ margin-top: 40px;
     .containers{
         margin-top: 20px;
         width: 100vw;
+        margin-left: 10px;
     
         
     }
@@ -198,8 +199,13 @@ margin-top: 40px;
     .rated{
         display: flex;
         flex-direction: column;
-        padding: 0px 15px;
+    padding-top: 0px;
 
+    }
+    .para{
+        text-align: center;
+        width: 400px;
+        margin-left: 10px;
     }
     
 }
